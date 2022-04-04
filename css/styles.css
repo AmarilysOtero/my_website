@@ -70,9 +70,9 @@ tr {
   position: relative;;
   padding: 100px;
 }
-.middle-container{
+/* .middle-container{
 
-}
+} */
 .me-img{
   width: 15%;
   border-radius: 100%;
@@ -189,6 +189,15 @@ tr {
   margin: 0;
   color: black;
 }
+/* Programming */
+.pg-h{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+.pg-h-p{
+  text-align: center;
+}
+
 .contact-msg{
   width: 40%;
   margin: 40px auto 60px;
