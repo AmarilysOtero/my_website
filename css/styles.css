@@ -197,6 +197,9 @@ tr {
 .pg-h-p{
   text-align: center;
 }
+.col-lg-4{
+  padding: 5% 0 7%;
+}
 .contact-msg{
   width: 40%;
   margin: 40px auto 60px;
