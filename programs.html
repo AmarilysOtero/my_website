@@ -71,15 +71,14 @@
         </div>
         <div class="pg-mid">
             <div class="row">
-
                 <div class="col-lg-4">
                   <h2 class="ex"> Excercise #1 </h2>
                   <h3 class="name">BMI Calculator</h3>
                   <p id="username">The following programs seeks to calculate body mass index.</p>
                   <label  for="tbuser1">Your weight:</label>
-                  <input  type="text" id="tbuser1" placeholder="Enter weight (in kg):" maxlength="10"><br>
+                  <input  type="text" id="tbuser1" placeholder="Enter weight (in kg):" maxlength="3"><br>
                   <label  for="tbuser2">Your height:</label>
-                  <input  type="text" id="tbuser2" placeholder="Enter height(in meters):" maxlength="10"><br>
+                  <input  type="text" id="tbuser2" placeholder="Enter height(in meters):" maxlength="4"><br>
                   <input  type="button" id="btn1" value="Calculate"><br>
                   <label  for="tboutput">Your BMI:</label>
                   <p class="output" id="output1" ></p>
@@ -104,14 +103,16 @@
                 </div>
               </div>
               <div class="row">
-
                 <div class="col-lg-4">
                   <h2 class="ex"> Excercise #4 </h2>
-                  <h3 class="fbs">
-                    <?php
-                        echo(rand(10, 100));
-                    ?>
-                </h3>
+                  <h3 class="name">BMI Calculator</h3>
+                  <form action="index.php" method="POST">
+                    <table>
+                    <tr><td>Height in meters</td><td><input type="text" name="height" maxlength="4"></td></tr>
+                    <tr><td>Weight in kilograms</td><td><input type="text" name="weight" maxlength="3"></td></tr>
+                    </table>
+                    <input type="submit" value="Calculate"><input type="reset" value="Reset">
+                    </form>
                 </div>
                 <div class="col-lg-4">
                   <h2 class="ex"> Excercise #5</h2>
@@ -131,6 +132,8 @@
     <script src="pg_one.js"></script>
     <script src="pg_two.js"></script>
     <script src="pg_three.js"></script>
+    <script src="index.php"></script>
+
 
 </body>
 </html>
