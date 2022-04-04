@@ -34,7 +34,11 @@ hr{
   border-top: 10px dotted #EAF6F6;
   width: 5%;
   margin: 100px auto;
-
+}
+.cv-hr{
+  border: none;
+  width: 75%;
+  margin: 100px auto;
 }
 a{
   color: #11999E;
