@@ -116,14 +116,24 @@
                 </div>
                 <div class="col-lg-4">
                   <h2 class="ex"> Excercise #5</h2>
-                  <h3 class="name">IMB Calculator</h3>
-                  <p id="username">The following programs seeks to calculate body mass index.</p>
-                  <p id="username" > Hi, user! </p>
-                  <button type="button" onclick="document.write(bodymi)">Calculate</button>
+                  <h3 class="fbs">Fibonacci Series</h3>
+                  <p id="fbnumber">I'll just print a series of numbers if you give an n.</p>
+                  <form action="fibonacci.php" method="POST">
+                    <table>
+                    <tr><td>Enter a number: </td><td><input type="text" name="number" maxlength="4"></td></tr>
+                    </table>
+                    <input type="submit" value="Print"><input type="reset" value="Reset">
+                    </form>
                 </div>
                 <div class="col-lg-4">
                     <h2 class="ex"> Excercise #6</h2>
-                    <h3 class="name">Otro ejemplo</h3>
+                    <h3 class="fbs">Lunch buyer</h3>
+                    <p id="lunch"> Who's gonna pay lunch today? </p>
+                    <form action="lunch_buyer.php" method="POST">
+                        <table>
+                        </table>
+                        <input type="submit" value="Let's see">
+                        </form>
                   </div>
               </div>
         </div>
@@ -132,7 +142,6 @@
     <script src="pg_one.js"></script>
     <script src="pg_two.js"></script>
     <script src="pg_three.js"></script>
-    <script src="index.php"></script>
 
 
 </body>
