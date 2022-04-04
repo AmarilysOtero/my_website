@@ -1,3 +1,8 @@
+// Author of the idea:      Angela Yu
+// Date:        01/2018
+// Modify by: Amarilys Otero
+// Date:        04/2022
+// Description: It's going to output the body mass index based on the weight and height the user inputs.
 const txt1 = document.getElementById('tbuser1');
 const txt2 = document.getElementById('tbuser2');
 const btn1 = document.getElementById('btn1');
@@ -14,8 +19,3 @@ function outputResult(){
 }
 
 btn1.addEventListener('click',outputResult);
-
-
-// var bodymi= bodyMassCalculator(65, 1.8);
-// console.log(bodymi);
-// document.write(bodymi);
