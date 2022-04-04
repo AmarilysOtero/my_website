@@ -31,13 +31,6 @@ let user = {
     isAdmin: true
   };
   
-//   alert(admin.fullName);
-//   admin.fullName = "Amarilys Otero";
-  
-//   alert(admin.fullName); 
-//   alert(user.fullName); 
-
-
 class tittleSection {
     constructor(name) { 
         this.name = name;
