@@ -1,6 +1,8 @@
 <!-- 
 Author:      Jouni Juntunen 
 Date:        8/2005 
+Modify by: Amarilys Otero
+Date:        04/2022
 Description: Reads height and weight from HTML-form and calculates BMI. User input is checked. 
 --> 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 

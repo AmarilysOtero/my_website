@@ -1,3 +1,9 @@
+// Author of the idea:      Angela Yu 
+// Date:        01/2018 
+// Modify by: Amarilys Otero
+// Date:        04/2022
+// Description: It use an array of names to Randomly print out who's gonna buy lunch
+ 
 names = ["Abner", "Ariel","Darell", "DiegoRC", "Diego RG", "Eloi", "Francisco", "Harry", "Kevin", "Norberto"]
 const btn3 = document.getElementById('btn3');
 const out3 = document.getElementById('output3');
