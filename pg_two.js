@@ -1,3 +1,8 @@
+// Author of the idea:      Angela Yu 
+// Date:        01/2018 
+// Modify by: Amarilys Otero
+// Date:        04/2022
+// Description: It generates a serie of Fibonacci numbers based on the input.
 const fbn = document.getElementById('tbn');
 const btn2 = document.getElementById('btn2');
 const out2 = document.getElementById('output2');
