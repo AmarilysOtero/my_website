@@ -1,6 +1,8 @@
 <!--
 Author:      Jouni Juntunen
 Date:        8/2005
+Modify by: Amarilys Otero
+Date:        04/2022
 Description: Reads height and weight from HTML-form and calculates BMI. User input is checked.
 -->
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
@@ -22,7 +24,7 @@ if ($_POST['height']!=strval(floatval($_POST['height'])))
 {
 //Print error message and hyperlink.
     print "Height is invalid<br />";
-    print "<a href='bmi2.htm'>try again</A>";
+    print "<a href='programs.html'>try again</A>";
 //Execution of this script is terminated at this point.
     exit;
 }
@@ -34,7 +36,7 @@ $height=$_POST['height'];
 if ($height<0 || $height>2.5)
 {
     print "Height must be value between 0 and 2.5<br />";
-    print "<a href='bmi2.htm'>try again</A>";
+    print "<a href='programs.html'>try again</A>";
     exit;
 }
 
@@ -42,7 +44,7 @@ if ($height<0 || $height>2.5)
 if ($_POST['weight']!=strval(intval($_POST['weight'])))
 {
     print "Weight is invalid<br />";
-    print "<a href='bmi2.htm'>try again</A>";
+    print "<a href='programs.html'>try again</A>";
     exit;
 }
 
@@ -53,7 +55,7 @@ $weight=$_POST['weight'];
 if ($weight<0 || $weight>500)
 {
     print "Weight must be value between 0 and 500<br />";
-    print "<a href='bmi2.htm'>try again</A>";
+    print "<a href='programs.html'>try again</A>";
     exit;
 }
 
