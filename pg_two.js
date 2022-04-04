@@ -1,3 +1,7 @@
+const fbn = document.getElementById('tbn');
+const btn2 = document.getElementById('btn2');
+const out2 = document.getElementById('output2');
+
 function fibonacciGen(n){
 
     var output = [];
@@ -15,5 +19,13 @@ function fibonacciGen(n){
     }
     return output;
 }
-output = fibonacciGen(5);
-console.log(output);
+function outputResult(){
+    var output = fibonacciGen(fbn.value);
+    console.log(output);
+    out2.innerHTML= output;
+}
+  
+btn2.addEventListener('click',outputResult);
+
+// output = fibonacciGen(5);
+// console.log(output);
