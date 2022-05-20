@@ -1,0 +1,70 @@
+{ "resume":[
+  {
+    "ProfileName": "Amarilys Otero Ayala",
+    "homeTown" : "Yauco, PR",
+    "email" : "amarilys.otero@upr.edu",
+    "title" : "Computer Science student",
+    "education" : [
+      
+        "date:  2019 - to present",
+        "degree: BS COMPUTER SCIENCE,",
+        "name: University of Puerto Rico",
+        "place: Mayaguez Campus",
+        {
+          "courses" : [
+          "Computing Fundamentals",
+          "Discrete Mathematics",
+          "Data Structure"
+        ]
+      }
+        
+    ],
+  
+  
+      "experience" : [
+        {
+          "date" : "AUGUST 2019 – DECEMBER 2019",
+          "position": "CUSTOMER SERVICE",
+          "name" : "PIZZA HUT,",
+          "place" : "Mayaguez Towne",
+          "chores" : [
+            "Cashier",
+            "Kitchen technician"
+          ]
+        }
+      ],
+      "extracurricular" : [
+        {
+          "position": "Member of Software Department",
+          "asociation_name" : "RUMblebots ",
+          "place" : "UPR MAYAGUEZ",
+          "activities" : [
+            "Development of pseudo code",
+            "Programming motor controllers",
+            "Coding in Arduino",
+            "Testing",
+            "Bill of materials"
+          ]
+        },
+        {
+            "position": "Member",
+            "asociation_name" : "Girl Oriented Programming  ",
+            "place" : "UPR PONCE",
+            "activities" : [
+              "Sales",
+              "Highschool outreach",
+              "Google Workshop Guaynabo"
+          ]
+        }
+      ],
+      
+        "skills" : [
+        "Programming languages skills: domain of C++ and Java, basic knowledge of Python and Arduino",
+        "Domain of Microsoft Office Suite (Word, Excel,PowerPoint)",
+        "Domain of Google Services (Google Drive, Google docs, Google Calendar, Google Forms)"
+      ],
+      
+        "references" : "References availabe if requested."
+    }
+  ]
+}
